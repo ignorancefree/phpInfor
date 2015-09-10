@@ -32,5 +32,8 @@ class RobortAction extends Action{
             }
         }
     }
+    public function combine(){
+        
+    }
 }
 ?>
