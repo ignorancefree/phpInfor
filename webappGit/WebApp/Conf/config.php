@@ -8,5 +8,7 @@ return array(
     'DB_PWD'    => 'dongdong', // 密码
     'DB_PORT'   => 3307, // 端口
     'DB_PREFIX' => 'think_', // 数据库表前缀
+    'URL_ROUTE_ON' => true,
+    'SHOW_PAGE_TRACE' => true,
 );
 ?>
