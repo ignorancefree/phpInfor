@@ -32,8 +32,11 @@ class RobortAction extends Action{
             }
         }
     }
-    public function combine(){
-        
+    public function request(){
+        echo 'request receive<br/>';
+        echo $_POST['content'];
+        echo '<br/>';
+        echo $this->_post('content');
     }
 }
 ?>
